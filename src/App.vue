@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Föoldal</router-link> |
+    <router-link to="/about">Letöltés</router-link> |
+    <router-link to="/about">Szolgáltatások</router-link> |
+    <router-link to="/about">Értékelés</router-link>
   </div>
   <router-view/>
 </template>
