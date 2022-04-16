@@ -1,8 +1,16 @@
 <template>
-  <div class="home">
-    
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+<h1 id="title">Doggo Session</h1>
+
+  <div>
+    <transition-group name="fade" tag="div">
+      <div v-for="i in [currentIndex]" :key="i">
+        <img :src="currentImg" />
+      </div>
+    </transition-group>
   </div>
+
+
 </template>
 
 <script>
