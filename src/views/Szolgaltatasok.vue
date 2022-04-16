@@ -60,4 +60,25 @@ export default {
 
 <style>
 
+.card-header{
+  background-color: lightblue !important;
+}
+
+
+
+.card-footer{
+  background-color: lightblue !important;
+  
+}
+
+.card{
+  margin-bottom: 50px !important;
+}
+
+#img{
+  float:left;
+}
+
+
+
 </style>
