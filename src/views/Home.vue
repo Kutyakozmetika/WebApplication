@@ -80,9 +80,4 @@ img {
   font-size: 80px;
   margin-bottom: 30px;
 }
-
-template{
-  background-color: red !important;
-}
-
 </style>
