@@ -9,8 +9,6 @@
       </div>
     </transition-group>
   </div>
-
-
 </template>
 
 <script>
@@ -54,3 +52,37 @@ export default {
 
 
 </script>
+<style>
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width:100%;
+  opacity: 1;
+}
+
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width:100%;
+  opacity: 0;
+}
+
+img {
+  height:450px;
+  width:50%
+}
+
+#title{
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+template{
+  background-color: red !important;
+}
+
+</style>
