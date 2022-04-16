@@ -20,6 +20,29 @@ export default {
       currentIndex: 0
     };
   },
+   mounted: function() {
+    this.startSlide();
+  },
 
-}
+  methods: {
+    startSlide: function() {
+      this.timer = setInterval(this.next, 2000);
+    },
+
+    next: function() {
+      this.currentIndex += 1;
+    },
+    prev: function() {
+      this.currentIndex -= 1;
+    }
+  },
+
+  computed: {
+    currentImg: function() {
+      return this.images[Math.abs(this.currentIndex) % this.images.length];
+    }
+  }
+};
+
+
 </script>
