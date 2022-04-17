@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Szolgaltatasok from '../views/Szolgaltatasok.vue'
+import Arlista from '../views/Arlista.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -14,6 +15,12 @@ const routes = [
     path: '/szolgaltatas',
     name: 'Szolgaltatasok',
     component: Szolgaltatasok
+  },
+  {
+    path: '/arlista',
+    name: 'Arlista',
+    component: Arlista
+
   },
 
 ]

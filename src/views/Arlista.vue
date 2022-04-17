@@ -27,7 +27,7 @@ export default {
     };
   },
   mounted() {
-    axios.get("http://localhost:5000/api/szolgaltatas%22")
+    axios.get("http://localhost:5000/api/szolgaltatas")
       .then(response => {
          this.szolgaltatasok = response.data
       })
