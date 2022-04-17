@@ -1,7 +1,13 @@
 <template>
 
 <h1 id="title">Doggo Session</h1>
+<h1>Miért érdemes a Doggo Session-t választani?</h1>
 
+
+  <p>Nagy türelemmel és szeretettel vagyok kutyád felé, úgy viszonyulok hozzá, mintha a sajátom lenne.</p>
+  <p>Kizárólag magas szakmai színvonalú kutyakozmetikai szolgáltatásokat nyújtok, így kedvenced a legjobb kezekben van.</p>
+  <p>Minden esetben a fajtajelleget, valamint a gazdi igényeit együttesen figyelembe véve alakítom ki a végleges fazont és formát.</p>
+  <p>A félénk vagy nehezen kezelhető kutyusokkal is könnyen megtalálom a közös hangot.</p>
   <div>
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
@@ -79,5 +85,13 @@ img {
 #title{
   font-size: 80px;
   margin-bottom: 30px;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+
+h1{
+  margin-bottom: 30px !important;
 }
 </style>
