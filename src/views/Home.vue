@@ -48,16 +48,15 @@ export default {
       this.currentIndex -= 1;
     }
   },
-
   computed: {
     currentImg: function() {
       return this.images[Math.abs(this.currentIndex) % this.images.length];
     }
   }
 };
-
-
 </script>
+
+
 <style>
 
 .fade-enter-active,
